@@ -1,0 +1,6 @@
+{
+	"path": "/usr/local/bin",
+	"cmd": ["mosml", "-quietdec", "$file"],
+	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+	"selector": "source.ml"
+}
