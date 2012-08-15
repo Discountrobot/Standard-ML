@@ -1,6 +1,13 @@
 {
+
 	"path": "/usr/local/bin",
 	"cmd": ["mosml", "-quietdec", "$file"],
 	"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
-	"selector": "source.sml"
+	"selector": "source.sml",
+
+    "windows": {
+    	// change this to wherever you placed the MosML bin folder.
+    	"path": "C:\\moml\\bin",
+       	"cmd": ["mosml", "-quietdec", "$file"]
+	}
 }
