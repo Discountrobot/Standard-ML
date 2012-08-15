@@ -5,8 +5,8 @@
 	"selector": "source.sml",
 
 	"windows": {
-		// change this to wherever you placed the MosML bin folder.
-		"path": "C:\\moml\\bin",
+		// change this to wherever you placed the MosML bin folder. 
+		"path": "C:\\mosml\\bin",
 		"cmd": ["mosml", "-quietdec", "$file"]
 	}
 }
